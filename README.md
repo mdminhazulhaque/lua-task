@@ -1,7 +1,8 @@
 # lua-task
 
-OpenWRT compatible package for Lua
+* OpenWRT compatible package for Lua
+* Works on Ubuntu with Lua5.1
 
-> LuaTask is developed by Daniel Quintela
-
-Makefile written by Md. Minhazul Haque
+| Developed by | Maintained by |
+|---|---|
+| Daniel Quintela | Md. Minhazul Haque |
