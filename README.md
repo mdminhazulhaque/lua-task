@@ -1,7 +1,6 @@
 # lua-task
 
-* OpenWRT compatible package for Lua
-* Works on Ubuntu with Lua5.1
+This is a repository containing OpenWRT-compatible Makefile for [Lua Task](http://luatask.luaforge.net) library.
 
 ### Developer
 
