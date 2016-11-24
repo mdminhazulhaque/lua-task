@@ -6,10 +6,12 @@
 ### Developer
 
 Daniel Quintela
-mail://dq@soongsoft.com
-http://www.soongsoft.com
+
+* mail://dq@soongsoft.com
+* http://www.soongsoft.com
 
 ### Maintainer
 
 Md. Minhazul Haque
-https://mdminhazulhaque.com/
+
+* https://mdminhazulhaque.com/
