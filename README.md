@@ -14,3 +14,8 @@ Daniel Quintela
 Md. Minhazul Haque
 
 * https://mdminhazulhaque.com/
+
+
+#### Bugs
+
+* Installs to wrong directory on Raspberry Pi
