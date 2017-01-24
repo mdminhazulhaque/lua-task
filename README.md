@@ -18,4 +18,4 @@ Md. Minhazul Haque
 
 #### Bugs
 
-* Installs to wrong directory on Raspberry Pi
+* ~~Installs to wrong directory on Raspberry Pi~~
