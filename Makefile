@@ -2,7 +2,7 @@ PKGC ?= pkg-config
 
 LUA := lua5.1
 LUA_CFLAGS := $(shell $(PKGC) --cflags $(LUA))
-LUA_LIBDIR := $(shell $(PKGC) --variable=INSTALL_LMOD $(LUA))
+LUA_LIBDIR := $(shell $(PKGC) --variable=INSTALL_CMOD $(LUA))
 
 CMOD = task.so
 OBJS = src/ltask.o src/queue.o src/syncos.o
@@ -22,6 +22,7 @@ $(CMOD): $(OBJS)
 clean:
 	$(RM) $(CMOD) $(OBJS)
 install: $(CMOD)
+	mkdir -p $(LUA_LIBDIR)
 	cp $(CMOD) $(LUA_LIBDIR)
 uninstall: $(CMOD)
 	rm -f $(LUA_LIBDIR)/$(CMOD)
